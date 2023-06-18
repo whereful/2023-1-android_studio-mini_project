@@ -2,7 +2,7 @@ package com.hansung.mini_project;
 
 import com.opencsv.bean.CsvBindByName;
 
-
+// csv 파일에 대응되는 movie 객체 설정
 public class Movie {
 
     @CsvBindByName

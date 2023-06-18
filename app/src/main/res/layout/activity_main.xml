@@ -162,10 +162,19 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"/>
 
-                <WebView
-                    android:id="@+id/webView"
+                <Button
+                    android:id="@+id/link_button"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:text="실시간 리뷰 보기"/>
+
+
+                <!--api 24에서 오류 발생, api 34의 경우 정상적으로 작동-->
+
+<!--                <WebView-->
+<!--                    android:id="@+id/webView"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"/>-->
 
             </LinearLayout>
 

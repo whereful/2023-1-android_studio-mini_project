@@ -102,6 +102,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         return stringArrayList.size();
     }
 
+    // recylcerView에 반영할 movie들을 저장하는 리스트를 설정
     public void setTarget_movie_list(List<Movie> target_movie_list) {
         this.target_movie_list = target_movie_list;
     }
